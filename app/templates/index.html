@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Divvy Bike Analysis</title>
+	<meta charset="utf-8" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+       integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+       crossorigin=""/>
+    
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+       integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+       crossorigin=""></script>
+    <script type="text/javascript">
+        var mapLong = {{map_long}};
+        var mapLat = {{map_lat}};
+        var mapZoom = {{map_zoom}};
+    </script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+
+	<script type="text/javascript" src="../static/sites.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../static/map.css"/>
+</head>
+<body>
+
+<div id="data_bar" class = "right-sidebar">
+
+	<div>
+		<!-- Default panel contents -->
+		<div class="data-header">
+            {% if has_result %}
+            Station {{station_id}} is not a melon
+            {% endif%}
+			<div class = "subtitle"></div>
+		</div>
+
+		<div class = "date"> <h6></h6> </div>
+
+
+		<!-- List group -->
+		<div class="list-group">
+
+
+		</div>
+	</div>
+
+</div>
+
+    <div id="map_wrapper">
+	<div id="map">
+		<div id="search_bar" class="input-group">
+			<span class="input-group-addon glyphicon glyphicon-search"></span>
+			<input type="text" class="form-control glyphicon"/>
+		</div>
+		<div id="share_row">
+			<button type="button" class="btn btn-default btn-lg share_btn" data-toggle="modal" data-target="#shareModal" id="share">
+				<span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share
+			</button>
+
+			<button type="button" class="btn btn-default btn-lg share_btn" data-toggle="modal" data-target="#downloadModal" id="download">
+				<span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download
+			</button>
+		</div>
+	</div>
+</div>
+
+
+<!--Popup Windows for Sharing-->
+<!--
+<div class="modal fade" id="shareModal" role="dialog">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Share</h4>
+			</div>
+			<div class="modal-body">
+				 Go to www.addthis.com/dashboard to customize your tools 
+				<div class="addthis_sharing_toolbox"></div>
+				<img id="share_map" src="ShareMap.png" class="img-responsive">
+				<div class="input-group" id="permalink" >
+					<span class="input-group-addon">Permalink</span>
+					<input type="text" class="form-control" aria-describedby="permalink" value="https://WebApp.com/s3W4kj2L" readonly >
+				</div>
+				<img id="external_buttons" src="ShareButtons.png" class="img-responsive">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+-->
+<!--
+
+<div class="modal fade" id="downloadModal" role="dialog">
+	<div class="modal-dialog modal-md">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h4 class="modal-title">Save</h4>
+			</div>
+			<div class="modal-body">
+				 Go to www.addthis.com/dashboard to customize your tools 
+				<div class="addthis_sharing_toolbox"></div>
+				<img id="share_map" src="ShareMap.png" class="img-responsive">
+				<a href="ShareMap.png" download="map.png"><button class="btn btn-primary btn-lg btn-block" id="save-btn">Download Image</button></a>
+
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+-->
+</body>
+<script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
+<script type="text/javascript" src="../static/map.js"></script>
+
+
+</html>
