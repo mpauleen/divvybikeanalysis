@@ -36,13 +36,20 @@
 		<!-- Default panel contents -->
 		<div class="data-header">
             {% if has_result %}
-            Station {{station_id}} is not a melon
+            Station {{station_id}} Shortage
             {% endif%}
 			<div class = "subtitle"></div>
 		</div>
 
-		<div class = "date"> <h6></h6> </div>
-
+        {% if prediction %}
+            {% if prediction > 80 %}
+            <font color="red">{{prediction}}% chance in next 30 minutes</font>
+            {% elif prediction > 40 %}
+            <font color="orange">{{prediction}}% chance in next 30 minutes</font>
+            {% else %}
+            <font color="green">{{prediction}}% chance in next 30 minutes</font>
+            {% endif%}
+        {% endif%}
 
 		<!-- List group -->
 		<div class="list-group">
@@ -55,19 +62,6 @@
 
     <div id="map_wrapper">
 	<div id="map">
-		<div id="search_bar" class="input-group">
-			<span class="input-group-addon glyphicon glyphicon-search"></span>
-			<input type="text" class="form-control glyphicon"/>
-		</div>
-		<div id="share_row">
-			<button type="button" class="btn btn-default btn-lg share_btn" data-toggle="modal" data-target="#shareModal" id="share">
-				<span class="glyphicon glyphicon-share" aria-hidden="true"></span> Share
-			</button>
-
-			<button type="button" class="btn btn-default btn-lg share_btn" data-toggle="modal" data-target="#downloadModal" id="download">
-				<span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download
-			</button>
-		</div>
 	</div>
 </div>
 
