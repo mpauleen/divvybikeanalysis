@@ -13,6 +13,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html", has_result = False, map_lat = 41.881832, map_long = -87.623177, map_zoom = 12)
 @app.route('/get_predict', methods=['GET'])
+
 def predict():
 #    station_id = request.form['id']
     vars = request.args.to_dict()
