@@ -41,11 +41,13 @@
 			<div class = "subtitle"></div>
 		</div>
 
-        {% if prediction %}
+        {% if not home %}
             {% if prediction > 80 %}
             <font color="red">{{prediction}}% chance in next 30 minutes</font>
             {% elif prediction > 40 %}
             <font color="orange">{{prediction}}% chance in next 30 minutes</font>
+            {% elif prediction == 0.0 %}
+            <font color="green">0.0% chance in next 30 minutes</font>
             {% else %}
             <font color="green">{{prediction}}% chance in next 30 minutes</font>
             {% endif%}
