@@ -31,6 +31,17 @@ def holiday_indicator(df):
     df['holiday'] = (df.ts.dt.date.astype('datetime64').isin(holidays)).astype(int)
     
 def features_from_csv(df):
+    """Generate predictive features from historical csv
+    of Divvy Station data. Create holiday, weekend and rush
+    hour indicators, as well as shortage indicator (0 bikes available
+    at some point within 30 minutes). To be used for training model
+    
+    Args:
+        df (pd.DataFrame): Historical Divvy Data
+    
+    Returns:
+        pd.DataFrame: Features DataFrame for modeling.
+    """
     df['ts'] = parse_dates(df.Timestamp)
     holiday_indicator(df)
     weekend_indicator(df)
@@ -40,12 +51,24 @@ def features_from_csv(df):
     df['shortage'] = df['Available Bikes'] <= 0
     sorted_df = df.sort_values(by = ['ID','ts'])
     by_id = sorted_df.groupby('ID')
+
+    # Check if shortage occurs in next 30 minutes
     sorted_df['shortage_in_30'] = (by_id.shortage.shift(-1) | by_id.shortage.shift(-2) | by_id.shortage.shift(-3)).astype(int)
     sorted_df['percent_full_lag'] = by_id['Percent Full'].shift(1)
     sorted_df['percent_full_delta'] = sorted_df['percent_full_lag']-sorted_df['Percent Full']
     return sorted_df
 
 def features_from_api(df):
+    """Generate predictive features from api pull
+    of Divvy Station data. Create holiday, weekend and rush
+    hour indicators. To be used for predicting shortage at a station.
+    
+    Args:
+        df (pd.DataFrame): API pull of Divvy Data
+    
+    Returns:
+        pd.DataFrame: Features DataFrame for predicting.
+    """
     df['ts'] = parse_dates(df.timestamp)
     holiday_indicator(df)
     weekend_indicator(df)
