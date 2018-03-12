@@ -29,12 +29,13 @@ def db_define(env):
 
 def post_result(request_time, station_id, percent_full, result):
     # set up connection
-    connection = pymysql.connect(
+    connection = psycopg2.connect(
             dbname=os.getenv("DATABASE"),
             user=os.getenv("DB_USERNAME"),
             password=os.getenv("PASSWORD"),
             host=os.getenv("HOST")
             )
+
     cur = connection.cursor()
 
     # write result into database
@@ -57,7 +58,7 @@ if __name__ == "__main__":
     db = db_define(os.environ.get("DATABASE_URL"))
 
     logger.info('Set up database connection')
-    connection = pymysql.connect(
+    connection = psycopg2.connect(
       dbname=os.getenv("DATABASE"),
       user=os.getenv("DB_USERNAME"),
       password=os.getenv("PASSWORD"),
