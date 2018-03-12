@@ -1,13 +1,16 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Data Ingestion and Feature Creation &#8212; DivvyBikeAnalysis 0.1 documentation</title>
+    
+    <title>Set Up Database &#8212; DivvyBikeAnalysis 0.1 documentation</title>
+    
     <link rel="stylesheet" href="_static/classic.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,7 +28,7 @@
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Getting started" href="getting-started.html" /> 
   </head>
-  <body>
+  <body role="document">
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -47,7 +50,20 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="module-access_api">
+  <div class="section" id="module-create_db">
+<span id="set-up-database"></span><h1>Set Up Database<a class="headerlink" href="#module-create_db" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="create_db.db_define">
+<code class="descclassname">create_db.</code><code class="descname">db_define</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="headerlink" href="#create_db.db_define" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function defines the database schema</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>env: database connection object</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-access_api">
 <span id="data-ingestion-and-feature-creation"></span><h1>Data Ingestion and Feature Creation<a class="headerlink" href="#module-access_api" title="Permalink to this headline">¶</a></h1>
 <dl class="function">
 <dt id="access_api.get_two_most_recent">
@@ -208,7 +224,8 @@ model coefficients to <cite>../../data/models</cite></p>
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table Of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Data Ingestion and Feature Creation</a></li>
+<li><a class="reference internal" href="#">Set Up Database</a></li>
+<li><a class="reference internal" href="#module-access_api">Data Ingestion and Feature Creation</a></li>
 <li><a class="reference internal" href="#module-predict_model">Model Fitting and Prediction</a></li>
 </ul>
 
@@ -253,7 +270,7 @@ model coefficients to <cite>../../data/models</cite></p>
     </div>
     <div class="footer" role="contentinfo">
         &#169; Copyright .
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.1.
     </div>
   </body>
 </html>

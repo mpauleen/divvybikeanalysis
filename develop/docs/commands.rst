@@ -1,3 +1,9 @@
+Set Up Database
+================
+
+.. automodule:: create_db
+   :members:
+
 Data Ingestion and Feature Creation
 =====================================
 
