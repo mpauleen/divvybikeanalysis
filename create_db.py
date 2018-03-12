@@ -14,7 +14,7 @@ def db_define(env):
     engine = create_engine(env)
     meta = MetaData(bind=engine)
 
-    logger.info('Define table')
+    logger.info('Initialize table')
     Table('results_cache', meta,
           Column('primary_key', Integer, primary_key=True, autoincrement=True),
           Column('request_time', BigInteger, primary_key=False,
