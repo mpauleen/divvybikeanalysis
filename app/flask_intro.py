@@ -26,11 +26,8 @@ def index():
 def predict():
     vars = request.args.to_dict()
 
-    print(vars)
     api_data = get_two_most_recent(vars['station'])
-    print(api_data)
     features = features_from_api(api_data)
-    print(features)
     prediction = round(predict_from_api(
         features.tail(1), vars['station']), 2) * 100
 

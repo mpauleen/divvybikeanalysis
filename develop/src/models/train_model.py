@@ -8,6 +8,7 @@ from statsmodels.formula.api import glm
 
 
 sys.path.append(os.path.abspath('../../'))
+sys.path.append(os.path.abspath('.'))
 from src.features.build_features import features_from_csv
 
 
@@ -15,7 +16,7 @@ from src.features.build_features import features_from_csv
 def train_models(df):
     """Take in feature data frame and train a logit
     model for each station in the Divvy network. Save
-    model coefficients to `../../data/models`
+    model coefficients to `data/models`
 
     Args:
         df (pd.DataFrame): features data frame
@@ -30,16 +31,16 @@ def train_models(df):
 
         logging.info('Pickling model for station {}.'.format(station_id))
         fitted_model.params.to_pickle(
-            '../../models/station_{}_params.pkl'.format(station_id))
+            'models/station_{}_params.pkl'.format(station_id))
 
 
 if __name__ == "__main__":
 
     log_fmt = '%(asctime)s -  %(levelname)s - %(message)s'
-    logging.basicConfig(filename='create_db.log', level=logging.INFO,
+    logging.basicConfig(filename='train_models.log', level=logging.INFO,
                         format=log_fmt)
     logger = logging.getLogger(__name__)
 
     logging.info('loading features from csv')
-    features = pd.read_csv('../../data/processed/historical_features.csv')
+    features = pd.read_csv('data/processed/historical_features.csv')
     train_models(features)

@@ -88,7 +88,7 @@ def features_from_api(df):
 def create_feature_df(file_name):
     """Create features from historical station data
     for model training and saves to csv in 
-    `../../data/processed/historical_features.csv`
+    `data/processed/historical_features.csv`
 
     Args:
         file_name (str): path to raw csv
@@ -96,7 +96,7 @@ def create_feature_df(file_name):
     logging.info('Generate features from raw data.')
     hist = pd.read_csv(file_name)
     features = features_from_csv(hist)
-    features.to_csv('../../data/processed/historical_features.csv')
+    features.to_csv('data/processed/historical_features.csv')
     logging.info('Finished generating features')
 
 if __name__ == "__main__":

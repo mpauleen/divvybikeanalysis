@@ -6,12 +6,14 @@ data/processed/historical_features.csv:
 
 features:data/processed/historical_features.csv
 
-models/params:
-	python src/models/train_model.py
-model:models/params
+
+models/params.txt:
+	@touch models/params.txt; python src/models/train_model.py
+
+model:models/params.txt
 
 clean:
 	rm data/processed/historical_features.csv
-	rm models/*.pkl
+	rm models/*
 
 all: features model
