@@ -27,17 +27,15 @@ def index():
 @app.route('/get_predict', methods=['GET'])
 def predict():
     vars = request.args.to_dict()
-    print(vars)
     api_data = get_two_most_recent(vars['station'])
     features = features_from_api(api_data)
-    prediction = round(predict_from_api(
-        features.tail(1), vars['station']), 2) * 100
-
+    station_id = int(vars['station'])
+    prediction = int(round(predict_from_api(models,
+        features.tail(1), station_id), 2) * 100)
     request_time = time.time()
     update_dt = datetime.strptime(features['timestamp'].iloc[1], '%Y-%m-%dT%H:%M:%S.000')
     update_date = datetime.strftime(update_dt, '%d/%m/%Y')
     update_time = datetime.strftime(update_dt, '%H:%M')
-    station_id = int(vars['station'])
     available = features['available_bikes'].iloc[1]
     docks = features['docks_in_service'].iloc[1]
     percent_full = features['Percent Full'].iloc[1]

@@ -61,7 +61,7 @@ def log_odds(model_params, df):
         + model_params['percent_full_delta'] * df['percent_full_delta']
 
 
-def predict_from_api(df, station_id):
+def predict_from_api(models, df, station_id):
     """Predict probability of shortage of bikes at given station
     in the next 30 minutes given a df of predictors.
 
