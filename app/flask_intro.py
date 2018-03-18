@@ -2,6 +2,7 @@ import sys
 import os
 import numpy as np
 import time
+import pickle
 from datetime import datetime
 from flask import Flask, render_template, request
 
@@ -50,6 +51,9 @@ def predict():
                            prediction=prediction, home=False)
 
 if __name__ == "__main__":
+    global models
+    with open('../develop/models/model.pkl','rb') as handle:
+        models = pickle.load(handle)
     app.run(debug=True, host='0.0.0.0', port=5000)
 
 

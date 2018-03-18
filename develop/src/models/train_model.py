@@ -28,10 +28,10 @@ def train_models(df):
         model = glm('shortage_in_30 ~ C(month)+Q("Percent Full")+weekend_or_holiday+am_rush+pm_rush+percent_full_delta',
                     data=df[df.ID == station_id], family=sm.families.Binomial())
         fitted_model = model.fit()
-
-        logging.info('Pickling model for station {}.'.format(station_id))
-        fitted_model.params.to_pickle(
-            'models/station_{}_params.pkl'.format(station_id))
+        station_models[station_id] = fitted_model.params
+    logging.info('Pickling models')
+    with open('models/models.pkl', 'wb') as handle:
+        pickle.dump(station_models, handle)
 
 
 if __name__ == "__main__":

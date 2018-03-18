@@ -72,7 +72,7 @@ def predict_from_api(df, station_id):
     Returns:
         float: Probability of shortage
     """
-    params = load_model_params(station_id)
+    params = models[station_id]
     lodds = log_odds(params, df)
     prob = log_odds_to_prob(lodds)
     return prob.iloc[0]
