@@ -50,7 +50,7 @@ def predict():
 
 if __name__ == "__main__":
     global models
-    with open('../develop/models/model.pkl','rb') as handle:
+    with open('../develop/models/models.pkl','rb') as handle:
         models = pickle.load(handle)
     app.run(debug=True, host='0.0.0.0', port=5000)
 
