@@ -37,7 +37,8 @@
 		<div class="data-header">
             {% if not home %}
             Station {{station_id}}
-			<div class = "subtitle">Current Status {{available}}/{{docks}} bikes available</div>
+			<div class = "subtitle">Current Status: {{available}} of {{docks}} bikes available</div>
+			<font size = '10pt'>Updated on {{update_date}} at {{update_time}}</div>
             {% endif%}
 		</div>
 

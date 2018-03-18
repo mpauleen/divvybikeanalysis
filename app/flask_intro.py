@@ -2,6 +2,7 @@ import sys
 import os
 import numpy as np
 import time
+from datetime import datetime
 from flask import Flask, render_template, request
 
 sys.path.append(os.path.abspath('../'))
@@ -32,15 +33,21 @@ def predict():
         features.tail(1), vars['station']), 2) * 100
 
     request_time = time.time()
+    update_dt = datetime.strptime(features['timestamp'].iloc[1], ' features['timestamp'].iloc[1]')
+    update_date = datetime.strftime(update_dt, '%d/%m/%Y')
+	update_time = datetime.strftime(update_dt, '%H:%M')
     station_id = int(vars['station'])
-    available = vars['available_bikes']
-    docks = vars['docks_in_service']
-    percent_full = features['Percent Full'].iloc[0]
+    available = features['available_bikes'].iloc[1]
+    docks = features['docks_in_service'].iloc[1]
+    percent_full = features['Percent Full'].iloc[1]
     result = prediction
     post_result(request_time, station_id, percent_full, result)
 
-    return render_template("index.html", has_result=True, station_id=vars['station'], docks = docks, available = available, map_lat=vars['lat'],
-                           map_long=vars['lng'], map_zoom=vars['zoom'], prediction=prediction, home=False)
+    return render_template("index.html", has_result=True, station_id=vars['station'],
+                           update_date = update_date, update_time = update_time, docks = docks,
+                           available = available, map_lat=vars['lat'],
+                           map_long=vars['lng'], map_zoom=vars['zoom'],
+                           prediction=prediction, home=False)
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
