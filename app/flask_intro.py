@@ -33,11 +33,13 @@ def predict():
 
     request_time = time.time()
     station_id = int(vars['station'])
+    available = vars['available_bikes']
+    docks = vars['docks_in_service']
     percent_full = features['Percent Full'].iloc[0]
     result = prediction
     post_result(request_time, station_id, percent_full, result)
 
-    return render_template("index.html", has_result=True, station_id=vars['station'], map_lat=vars['lat'],
+    return render_template("index.html", has_result=True, station_id=vars['station'], docks = docks, available = available, map_lat=vars['lat'],
                            map_long=vars['lng'], map_zoom=vars['zoom'], prediction=prediction, home=False)
 
 if __name__ == "__main__":

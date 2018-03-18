@@ -35,10 +35,10 @@
 	<div>
 		<!-- Default panel contents -->
 		<div class="data-header">
-            {% if has_result %}
-            Station {{station_id}} Shortage
+            {% if not home %}
+            Station {{station_id}}
             {% endif%}
-			<div class = "subtitle"></div>
+			<div class = "subtitle">Current Status {{available}}/{{docks}} bikes available</div>
 		</div>
 
         {% if not home %}
