@@ -25,7 +25,7 @@ def index():
 @app.route('/get_predict', methods=['GET'])
 def predict():
     vars = request.args.to_dict()
-
+    print(vars)
     api_data = get_two_most_recent(vars['station'])
     features = features_from_api(api_data)
     prediction = round(predict_from_api(
