@@ -96,7 +96,7 @@ def create_feature_df(file_name):
     logging.info('Generate features from raw data.')
     hist = pd.read_csv(file_name)
     features = features_from_csv(hist)
-    features.to_csv('data/processed/historical_features.csv')
+    features.to_csv('data/processed/historical_features.csv.gz')
     logging.info('Finished generating features')
 
 if __name__ == "__main__":

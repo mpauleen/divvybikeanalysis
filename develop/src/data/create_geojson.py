@@ -5,7 +5,7 @@ import pandas as pd
 
 def df_to_geojson(df, properties, lat='Latitude', lon='Longitude'):
     """Extract divvy bike site locations from df and convert"""
-	logger.info('create sites')
+    logging.info('create sites')
     geojson = {'type':'FeatureCollection', 'features':[]}
     for _, row in df.iterrows():
         feature = {'type':'Feature',
@@ -24,7 +24,7 @@ def main():
     logging.basicConfig(filename='create_geojson.log', level=logging.INFO,
                         format=log_fmt)
     logger = logging.getLogger(__name__)
-    divvy = pd.read_csv('data/raw/historical.csv')
+    divvy = pd.read_csv('data/raw/historical.csv.gz')
     locations = divvy[['ID','Latitude','Longitude','Station Name','Address']].drop_duplicates('ID').sort_values('ID')
     geo_json = df_to_geojson(locations, ['ID','Station Name','Address'])
     output_filename = '../app/static/sites.js'
