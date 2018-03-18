@@ -79,6 +79,18 @@ of the specified station for prediction</p>
 </dd></dl>
 
 <span class="target" id="module-build_features"></span><dl class="function">
+<dt id="build_features.create_feature_df">
+<code class="descclassname">build_features.</code><code class="descname">create_feature_df</code><span class="sig-paren">(</span><em>file_name</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.create_feature_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create features from historical station data
+for model training and saves to csv in 
+<cite>data/processed/historical_features.csv</cite></p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>file_name (str): path to raw csv</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
 <dt id="build_features.features_from_api">
 <code class="descclassname">build_features.</code><code class="descname">features_from_api</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.features_from_api" title="Permalink to this definition">¶</a></dt>
 <dd><p>Generate predictive features from api pull
@@ -191,23 +203,11 @@ station_id (int): Divvy Station ID</dd>
 </dd></dl>
 
 <span class="target" id="module-train_model"></span><dl class="function">
-<dt id="train_model.create_feature_df">
-<code class="descclassname">train_model.</code><code class="descname">create_feature_df</code><span class="sig-paren">(</span><em>file_name</em><span class="sig-paren">)</span><a class="headerlink" href="#train_model.create_feature_df" title="Permalink to this definition">¶</a></dt>
-<dd><p>Create features from historical station data
-for model training and saves to csv in 
-<cite>../../data/processed/historical_features.csv</cite></p>
-<dl class="docutils">
-<dt>Args:</dt>
-<dd>file_name (str): path to raw csv</dd>
-</dl>
-</dd></dl>
-
-<dl class="function">
 <dt id="train_model.train_models">
 <code class="descclassname">train_model.</code><code class="descname">train_models</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#train_model.train_models" title="Permalink to this definition">¶</a></dt>
 <dd><p>Take in feature data frame and train a logit
 model for each station in the Divvy network. Save
-model coefficients to <cite>../../data/models</cite></p>
+model coefficients to <cite>data/models</cite></p>
 <dl class="docutils">
 <dt>Args:</dt>
 <dd>df (pd.DataFrame): features data frame</dd>
