@@ -37,28 +37,20 @@
 		<div class="data-header">
             {% if not home %}
             Station {{station_id}}
-			<div class = "subtitle">Current Status: {{available}} of {{docks}} bikes available</div>
-			<font size = '10pt'>Updated on {{update_date}} at {{update_time}}</div>
+			<div class = "subtitle">{{available}} of {{docks}} bikes available</div>
             {% endif%}
 		</div>
 
         {% if not home %}
             {% if prediction > 80 %}
-            <font color="red">{{prediction}}% chance in next 30 minutes</font>
+            <font color="red">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% elif prediction > 40 %}
-            <font color="orange">{{prediction}}% chance in next 30 minutes</font>
-            {% elif prediction == 0.0 %}
-            <font color="green">0.0% chance in next 30 minutes</font>
+            <font color="orange">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% else %}
-            <font color="green">{{prediction}}% chance in next 30 minutes</font>
+            <font color="green">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% endif%}
+			<font size = "1"><br>Updated on {{update_date}} at {{update_time}}</font>
         {% endif%}
-
-		<!-- List group -->
-		<div class="list-group">
-
-
-		</div>
 	</div>
 
 </div>
