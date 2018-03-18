@@ -35,7 +35,7 @@ def predict():
     request_time = time.time()
     update_dt = datetime.strptime(features['timestamp'].iloc[1], '%Y-%m-%dT%H:%M:%S.000')
     update_date = datetime.strftime(update_dt, '%d/%m/%Y')
-	update_time = datetime.strftime(update_dt, '%H:%M')
+    update_time = datetime.strftime(update_dt, '%H:%M')
     station_id = int(vars['station'])
     available = features['available_bikes'].iloc[1]
     docks = features['docks_in_service'].iloc[1]
