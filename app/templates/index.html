@@ -42,9 +42,9 @@
 		</div>
 
         {% if not home %}
-            {% if prediction > 80 %}
+            {% if prediction > 50 %}
             <font color="red">{{prediction}}% chance of shortage in next 30 minutes</font>
-            {% elif prediction > 40 %}
+            {% elif prediction > 20 %}
             <font color="orange">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% else %}
             <font color="green">{{prediction}}% chance of shortage in next 30 minutes</font>
