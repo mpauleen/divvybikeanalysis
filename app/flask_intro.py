@@ -30,7 +30,7 @@ def predict():
     api_data = get_two_most_recent(vars['station'])
     features = features_from_api(api_data)
     station_id = int(vars['station'])
-    station_name = features['station_name']
+    station_name = features['station_name'].iloc[1]
     prediction = int(round(predict_from_api(models,
         features.tail(1), station_id), 2) * 100)
     request_time = time.time()
