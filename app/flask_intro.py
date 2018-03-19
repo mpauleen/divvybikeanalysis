@@ -32,9 +32,10 @@ def predict():
     station_id = int(vars['station'])
     station_name = features['station_name'].iloc[1]
     prediction = int(round(predict_from_api(models,
-        features.tail(1), station_id), 2) * 100)
+                                            features.tail(1), station_id), 2) * 100)
     request_time = time.time()
-    update_dt = datetime.strptime(features['timestamp'].iloc[1], '%Y-%m-%dT%H:%M:%S.000')
+    update_dt = datetime.strptime(features['timestamp'].iloc[
+                                  1], '%Y-%m-%dT%H:%M:%S.000')
     update_date = datetime.strftime(update_dt, '%d/%m/%Y')
     update_time = datetime.strftime(update_dt, '%H:%M')
     available = features['available_bikes'].iloc[1]
@@ -44,17 +45,14 @@ def predict():
     post_result(request_time, station_id, percent_full, result)
 
     return render_template("index.html", station_id=station_id,
-                           station_name = station_name,
-                           update_date = update_date, update_time = update_time, docks = docks,
-                           available = available, map_lat=vars['lat'],
+                           station_name=station_name,
+                           update_date=update_date, update_time=update_time, docks=docks,
+                           available=available, map_lat=vars['lat'],
                            map_long=vars['lng'], map_zoom=vars['zoom'],
                            prediction=prediction, home=False)
 
 if __name__ == "__main__":
     global models
-    with open('../develop/models/models.pkl','rb') as handle:
+    with open('../develop/models/models.pkl', 'rb') as handle:
         models = pickle.load(handle)
     app.run(debug=True, host='0.0.0.0', port=5000)
-
-
-

@@ -7,20 +7,6 @@ import pandas as pd
 from statsmodels.formula.api import glm
 
 
-def load_model_params(station_id):
-    """Unpickles the stored model coefficients for the specified station_id
-
-    Args:
-        station_id (int): Valid Station ID number in the divvy network
-
-    Returns:
-        pd.DataFrame: Logit Model Parameters
-    """
-    file_name = "../develop/models/station_{}_params.pkl".format(station_id)
-    params = pd.read_pickle(file_name)
-    return params
-
-
 def log_odds_to_prob(log_odds):
     """Convert log_odds to a probability
 
@@ -75,4 +61,5 @@ def predict_from_api(models, df, station_id):
     params = models[station_id]
     lodds = log_odds(params, df)
     prob = log_odds_to_prob(lodds)
-    return prob.iloc[0]
+    print(prob)
+    return prob.loc[0]

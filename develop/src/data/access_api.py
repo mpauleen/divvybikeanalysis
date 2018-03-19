@@ -21,4 +21,6 @@ def get_two_most_recent(id):
     # convert numeric columns to numeric
     results_df[['id', 'percent_full', 'available_bikes']] = results_df[
         ['id', 'percent_full', 'available_bikes']].apply(pd.to_numeric, errors='coerce')
+    print(results)
     return results_df
+get_two_most_recent(2)
