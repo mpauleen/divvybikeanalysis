@@ -1,9 +1,10 @@
 
 var dataBar = document.getElementById("data_bar")
 var map = L.map('map',{zoomControl:false}).setView([mapLat, mapLong], mapZoom );
+var mapToken = 'pk.eyJ1IjoibXBhdWxlZW4iLCJhIjoiY2pkOWFkM3dtNXJpdTJ4bjJnenU0djBicyJ9.S3X2k6KGLO1hlEBZukc-xw'
 
 L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-    accessToken: 'pk.eyJ1IjoibXBhdWxlZW4iLCJhIjoiY2pkOWFkM3dtNXJpdTJ4bjJnenU0djBicyJ9.S3X2k6KGLO1hlEBZukc-xw',
+    accessToken: mapToken,
 	maxZoom: 18,
     id: 'mapbox.dark',
 	attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +

@@ -1,5 +1,6 @@
 ../app/static/sites.js:
 	python src/data/create_geojson.py
+
 sites:../app/static/sites.js
 
 db:
@@ -19,4 +20,8 @@ clean:
 	rm data/processed/historical_features.csv
 	rm models/models.pkl
 	rm app/static/sites.js
+
+test:
+	pytest
+
 all: features model db sites
