@@ -61,5 +61,6 @@ def predict_from_api(models, df, station_id):
     params = models[station_id]
     lodds = log_odds(params, df)
     prob = log_odds_to_prob(lodds)
+    print(params)
     print(prob)
     return prob.loc[0]
