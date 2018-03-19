@@ -36,7 +36,7 @@
 		<!-- Default panel contents -->
 		<div class="data-header">
             {% if not home %}
-            Station {{station_id}}
+            {{station_name}}
 			<div class = "subtitle">{{available}} of {{docks}} bikes available</div>
             {% endif%}
 		</div>
@@ -49,7 +49,7 @@
             {% else %}
             <font color="green">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% endif%}
-			<font size = "1"><br>Updated on {{update_date}} at {{update_time}}</font>
+			<font size = "1"><br>Station {{station_id}}: Updated on {{update_date}} at {{update_time}}</font>
         {% endif%}
 	</div>
 

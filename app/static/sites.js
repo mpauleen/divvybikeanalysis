@@ -1,6 +1,8 @@
 var sites = {
+  "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Balbo Ave",
         "ID": 2,
@@ -12,10 +14,10 @@ var sites = {
           41.872638
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Shedd Aquarium",
         "ID": 3,
@@ -27,10 +29,10 @@ var sites = {
           41.867226
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Burnham Harbor",
         "ID": 4,
@@ -42,10 +44,10 @@ var sites = {
           41.856268
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & Harrison St",
         "ID": 5,
@@ -57,10 +59,10 @@ var sites = {
           41.874053
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dusable Harbor",
         "ID": 6,
@@ -72,10 +74,10 @@ var sites = {
           41.885042
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Field Blvd & South Water St",
         "ID": 7,
@@ -87,10 +89,10 @@ var sites = {
           41.886348999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Leavitt St & Archer Ave",
         "ID": 9,
@@ -102,10 +104,10 @@ var sites = {
           41.828792
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Jeffery Blvd & 71st St",
         "ID": 11,
@@ -117,10 +119,10 @@ var sites = {
           41.766638
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "South Shore Dr & 71st St",
         "ID": 12,
@@ -132,10 +134,10 @@ var sites = {
           41.766409
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wilton Ave & Diversey Pkwy",
         "ID": 13,
@@ -147,10 +149,10 @@ var sites = {
           41.932418
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Morgan St & 18th St",
         "ID": 14,
@@ -162,10 +164,10 @@ var sites = {
           41.858086
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Racine Ave & 18th St",
         "ID": 15,
@@ -177,10 +179,10 @@ var sites = {
           41.858166
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Paulina Ave & North Ave",
         "ID": 16,
@@ -192,10 +194,10 @@ var sites = {
           41.910337
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wood St & Division St",
         "ID": 17,
@@ -207,10 +209,10 @@ var sites = {
           41.90332
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wacker Dr & Washington St",
         "ID": 18,
@@ -222,10 +224,10 @@ var sites = {
           41.883272
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Loomis St & Taylor St (*)",
         "ID": 19,
@@ -237,10 +239,10 @@ var sites = {
           41.869417
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sheffield Ave & Kingsbury St",
         "ID": 20,
@@ -252,10 +254,10 @@ var sites = {
           41.910522
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Aberdeen St & Jackson Blvd",
         "ID": 21,
@@ -267,10 +269,10 @@ var sites = {
           41.877726
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "May St & Taylor St",
         "ID": 22,
@@ -282,10 +284,10 @@ var sites = {
           41.869482
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Orleans St & Elm St (*)",
         "ID": 23,
@@ -297,10 +299,10 @@ var sites = {
           41.902924
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Fairbanks Ct & Grand Ave",
         "ID": 24,
@@ -312,10 +314,10 @@ var sites = {
           41.89186
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Pearson st",
         "ID": 25,
@@ -327,10 +329,10 @@ var sites = {
           41.897659999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "McClurg Ct & Illinois St",
         "ID": 26,
@@ -342,10 +344,10 @@ var sites = {
           41.891020000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Larrabee St & North Ave",
         "ID": 27,
@@ -357,10 +359,10 @@ var sites = {
           41.91021
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Larrabee St & Menomonee St",
         "ID": 28,
@@ -372,10 +374,10 @@ var sites = {
           41.91468
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Noble St & Milwaukee Ave",
         "ID": 29,
@@ -387,10 +389,10 @@ var sites = {
           41.90068
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Ashland Ave & Augusta Blvd",
         "ID": 30,
@@ -402,10 +404,10 @@ var sites = {
           41.899643
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Franklin St & Chicago Ave",
         "ID": 31,
@@ -417,10 +419,10 @@ var sites = {
           41.896776
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Racine Ave & Congress Pkwy",
         "ID": 32,
@@ -432,10 +434,10 @@ var sites = {
           41.87464
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & Van Buren St",
         "ID": 33,
@@ -447,10 +449,10 @@ var sites = {
           41.877181
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Cannon Dr & Fullerton Ave",
         "ID": 34,
@@ -462,10 +464,10 @@ var sites = {
           41.926756
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Streeter Dr & Grand Ave",
         "ID": 35,
@@ -477,10 +479,10 @@ var sites = {
           41.892278000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Franklin St & Jackson Blvd",
         "ID": 36,
@@ -492,10 +494,10 @@ var sites = {
           41.877708
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dearborn St & Adams St",
         "ID": 37,
@@ -507,10 +509,10 @@ var sites = {
           41.879356
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & Lake St",
         "ID": 38,
@@ -522,10 +524,10 @@ var sites = {
           41.886021
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wabash Ave & Adams St",
         "ID": 39,
@@ -537,10 +539,10 @@ var sites = {
           41.879472
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "LaSalle St & Adams St",
         "ID": 40,
@@ -552,10 +554,10 @@ var sites = {
           41.879344
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Federal St & Polk St",
         "ID": 41,
@@ -567,10 +569,10 @@ var sites = {
           41.872078
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wabash Ave & Cermak Rd",
         "ID": 42,
@@ -582,10 +584,10 @@ var sites = {
           41.852619
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Washington St",
         "ID": 43,
@@ -597,10 +599,10 @@ var sites = {
           41.883893
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & Randolph St",
         "ID": 44,
@@ -612,10 +614,10 @@ var sites = {
           41.88473
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Congress Pkwy",
         "ID": 45,
@@ -627,10 +629,10 @@ var sites = {
           41.876243
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wells St & Walton St",
         "ID": 46,
@@ -642,10 +644,10 @@ var sites = {
           41.89993
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & Kinzie St",
         "ID": 47,
@@ -657,10 +659,10 @@ var sites = {
           41.889179999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Larrabee St & Kingsbury St",
         "ID": 48,
@@ -672,10 +674,10 @@ var sites = {
           41.897764
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dearborn St & Monroe St",
         "ID": 49,
@@ -687,10 +689,10 @@ var sites = {
           41.88132
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & Congress Pkwy",
         "ID": 50,
@@ -702,10 +704,10 @@ var sites = {
           41.875933
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & Randolph St",
         "ID": 51,
@@ -717,10 +719,10 @@ var sites = {
           41.884576
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Lake St",
         "ID": 52,
@@ -732,10 +734,10 @@ var sites = {
           41.886024
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wells St & Huron St",
         "ID": 53,
@@ -747,10 +749,10 @@ var sites = {
           41.894729
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Ogden Ave & Chicago Ave",
         "ID": 54,
@@ -762,10 +764,10 @@ var sites = {
           41.896361999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Halsted St & Roosevelt Rd",
         "ID": 55,
@@ -777,10 +779,10 @@ var sites = {
           41.867323999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Desplaines St & Kinzie St",
         "ID": 56,
@@ -792,10 +794,10 @@ var sites = {
           41.888715999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Roosevelt Rd",
         "ID": 57,
@@ -807,10 +809,10 @@ var sites = {
           41.867118
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Marshfield Ave & Cortland St",
         "ID": 58,
@@ -822,10 +824,10 @@ var sites = {
           41.916017
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wabash Ave & Roosevelt Rd",
         "ID": 59,
@@ -837,10 +839,10 @@ var sites = {
           41.867227
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dayton St & North Ave",
         "ID": 60,
@@ -852,10 +854,10 @@ var sites = {
           41.910578
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wood St & Milwaukee Ave",
         "ID": 61,
@@ -867,10 +869,10 @@ var sites = {
           41.907655
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "McCormick Place",
         "ID": 62,
@@ -882,10 +884,10 @@ var sites = {
           41.851375
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Lake St",
         "ID": 66,
@@ -897,10 +899,10 @@ var sites = {
           41.885637
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sheffield Ave & Fullerton Ave",
         "ID": 67,
@@ -912,10 +914,10 @@ var sites = {
           41.925602000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Tilden St",
         "ID": 68,
@@ -927,10 +929,10 @@ var sites = {
           41.875885
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Damen Ave & Pierce Ave",
         "ID": 69,
@@ -942,10 +944,10 @@ var sites = {
           41.909396
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Morgan St & Lake St",
         "ID": 71,
@@ -957,10 +959,10 @@ var sites = {
           41.885483
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wabash Ave & 16th St",
         "ID": 72,
@@ -972,10 +974,10 @@ var sites = {
           41.860384
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Jefferson St & Monroe St",
         "ID": 73,
@@ -987,10 +989,10 @@ var sites = {
           41.880421999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Kingsbury St & Erie St",
         "ID": 74,
@@ -1002,10 +1004,10 @@ var sites = {
           41.893882
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Jackson Blvd",
         "ID": 75,
@@ -1017,10 +1019,10 @@ var sites = {
           41.878534
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Lake Shore Dr & Monroe St",
         "ID": 76,
@@ -1032,10 +1034,10 @@ var sites = {
           41.880958
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Madison St",
         "ID": 77,
@@ -1047,10 +1049,10 @@ var sites = {
           41.882242
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Aberdeen St & Monroe St",
         "ID": 80,
@@ -1062,10 +1064,10 @@ var sites = {
           41.88042
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Daley Center Plaza",
         "ID": 81,
@@ -1077,10 +1079,10 @@ var sites = {
           41.884240999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Union Ave & Grand Ave",
         "ID": 84,
@@ -1092,10 +1094,10 @@ var sites = {
           41.891
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Michigan Ave & Oak St",
         "ID": 85,
@@ -1107,10 +1109,10 @@ var sites = {
           41.90096
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Eckhart Park",
         "ID": 86,
@@ -1122,10 +1124,10 @@ var sites = {
           41.896373
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Racine Ave & Fullerton Ave",
         "ID": 87,
@@ -1137,10 +1139,10 @@ var sites = {
           41.925563000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "May St & Randolph St",
         "ID": 88,
@@ -1152,10 +1154,10 @@ var sites = {
           41.88397
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Financial Pl & Congress Pkwy",
         "ID": 89,
@@ -1167,10 +1169,10 @@ var sites = {
           41.875009000000006
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Millennium Park",
         "ID": 90,
@@ -1182,10 +1184,10 @@ var sites = {
           41.881032
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Washington Blvd",
         "ID": 91,
@@ -1197,10 +1199,10 @@ var sites = {
           41.883379999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Carpenter St & Huron St",
         "ID": 92,
@@ -1212,10 +1214,10 @@ var sites = {
           41.894556
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sheffield Ave & Willow St",
         "ID": 93,
@@ -1227,10 +1229,10 @@ var sites = {
           41.913688
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & Armitage Ave",
         "ID": 94,
@@ -1242,10 +1244,10 @@ var sites = {
           41.918306
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Stony Island Ave & 64th St",
         "ID": 95,
@@ -1257,10 +1259,10 @@ var sites = {
           41.778701
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Desplaines St & Randolph St",
         "ID": 96,
@@ -1272,10 +1274,10 @@ var sites = {
           41.884615999999994
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Field Museum",
         "ID": 97,
@@ -1287,10 +1289,10 @@ var sites = {
           41.865312
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "LaSalle St & Washington St",
         "ID": 98,
@@ -1302,10 +1304,10 @@ var sites = {
           41.882664
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Lake Shore Dr & Ohio St",
         "ID": 99,
@@ -1317,10 +1319,10 @@ var sites = {
           41.89257
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Orleans St & Merchandise Mart Plaza",
         "ID": 100,
@@ -1332,10 +1334,10 @@ var sites = {
           41.888243
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "63rd St Beach",
         "ID": 101,
@@ -1347,10 +1349,10 @@ var sites = {
           41.781015999999994
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Stony Island Ave & 67th St",
         "ID": 102,
@@ -1362,10 +1364,10 @@ var sites = {
           41.773458000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clinton St & Polk St (*)",
         "ID": 103,
@@ -1377,10 +1379,10 @@ var sites = {
           41.871466999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & Pearson St",
         "ID": 106,
@@ -1392,10 +1394,10 @@ var sites = {
           41.897448
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Desplaines St & Jackson Blvd",
         "ID": 107,
@@ -1407,10 +1409,10 @@ var sites = {
           41.878287
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Halsted St & Polk St",
         "ID": 108,
@@ -1422,10 +1424,10 @@ var sites = {
           41.87184
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "900 W Harrison St",
         "ID": 109,
@@ -1437,10 +1439,10 @@ var sites = {
           41.874675
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dearborn St & Erie St",
         "ID": 110,
@@ -1452,10 +1454,10 @@ var sites = {
           41.893992
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sedgwick St & Huron St",
         "ID": 111,
@@ -1467,10 +1469,10 @@ var sites = {
           41.894666
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Green St & Randolph St",
         "ID": 112,
@@ -1482,10 +1484,10 @@ var sites = {
           41.883668
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Bissell St & Armitage Ave",
         "ID": 113,
@@ -1497,10 +1499,10 @@ var sites = {
           41.918440000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sheffield Ave & Waveland Ave",
         "ID": 114,
@@ -1512,10 +1514,10 @@ var sites = {
           41.949399
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sheffield Ave & Wellington Ave",
         "ID": 115,
@@ -1527,10 +1529,10 @@ var sites = {
           41.936265999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Western Ave & Winnebago Ave",
         "ID": 116,
@@ -1542,10 +1544,10 @@ var sites = {
           41.91552
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wilton Ave & Belmont Ave",
         "ID": 117,
@@ -1557,10 +1559,10 @@ var sites = {
           41.94018
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sedgwick St & North Ave",
         "ID": 118,
@@ -1572,10 +1574,10 @@ var sites = {
           41.911386
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Ashland Ave & Lake St",
         "ID": 119,
@@ -1587,10 +1589,10 @@ var sites = {
           41.88541
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wentworth Ave & Archer Ave",
         "ID": 120,
@@ -1602,10 +1604,10 @@ var sites = {
           41.853605
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Blackstone Ave & Hyde Park Blvd",
         "ID": 121,
@@ -1617,10 +1619,10 @@ var sites = {
           41.802562
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Ogden Ave & Congress Pkwy",
         "ID": 122,
@@ -1632,10 +1634,10 @@ var sites = {
           41.875009999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "California Ave & Milwaukee Ave",
         "ID": 123,
@@ -1647,10 +1649,10 @@ var sites = {
           41.922695000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Damen Ave & Cullerton St",
         "ID": 124,
@@ -1662,10 +1664,10 @@ var sites = {
           41.855048
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Rush St & Hubbard St",
         "ID": 125,
@@ -1677,10 +1679,10 @@ var sites = {
           41.890011
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & North Ave",
         "ID": 126,
@@ -1692,10 +1694,10 @@ var sites = {
           41.911974
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Lincoln Ave & Fullerton Ave",
         "ID": 127,
@@ -1707,10 +1709,10 @@ var sites = {
           41.925905
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Damen Ave & Chicago Ave",
         "ID": 128,
@@ -1722,10 +1724,10 @@ var sites = {
           41.895769
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Blue Island Ave & 18th St",
         "ID": 129,
@@ -1737,10 +1739,10 @@ var sites = {
           41.857556
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Damen Ave & Division St",
         "ID": 130,
@@ -1752,10 +1754,10 @@ var sites = {
           41.90331
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Lincoln Ave & Belmont Ave",
         "ID": 131,
@@ -1767,10 +1769,10 @@ var sites = {
           41.939365
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Wentworth Ave & 24th St",
         "ID": 132,
@@ -1782,10 +1784,10 @@ var sites = {
           41.849237
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Kingsbury St & Kinzie St",
         "ID": 133,
@@ -1797,10 +1799,10 @@ var sites = {
           41.889177000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Peoria St & Jackson Blvd",
         "ID": 134,
@@ -1812,10 +1814,10 @@ var sites = {
           41.877749
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Halsted St & 21st St",
         "ID": 135,
@@ -1827,10 +1829,10 @@ var sites = {
           41.85378
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Racine Ave & 13th St",
         "ID": 136,
@@ -1842,10 +1844,10 @@ var sites = {
           41.865054
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Morgan Ave & 14th Pl",
         "ID": 137,
@@ -1857,10 +1859,10 @@ var sites = {
           41.862378
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clybourn Ave & Division St",
         "ID": 138,
@@ -1872,10 +1874,10 @@ var sites = {
           41.904613
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Dearborn Pkwy & Delaware Pl",
         "ID": 140,
@@ -1887,10 +1889,10 @@ var sites = {
           41.898969
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Clark St & Lincoln Ave",
         "ID": 141,
@@ -1902,10 +1904,10 @@ var sites = {
           41.915689
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "McClurg Ct & Erie St",
         "ID": 142,
@@ -1917,10 +1919,10 @@ var sites = {
           41.894503
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Sedgwick St & Webster Ave",
         "ID": 143,
@@ -1932,10 +1934,10 @@ var sites = {
           41.922167
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Larrabee St & Webster Ave",
         "ID": 144,
@@ -1947,10 +1949,10 @@ var sites = {
           41.921822
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Mies van der Rohe Way & Chestnut St",
         "ID": 145,
@@ -1962,10 +1964,10 @@ var sites = {
           41.898587
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Loomis St & Jackson Blvd",
         "ID": 146,
@@ -1977,10 +1979,10 @@ var sites = {
           41.877945000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Indiana Ave & 26th St",
         "ID": 147,
@@ -1992,10 +1994,10 @@ var sites = {
           41.845687
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "State St & 33rd St",
         "ID": 148,
@@ -2007,10 +2009,10 @@ var sites = {
           41.834734000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
         "Address": "Calumet Ave & 33rd St",
         "ID": 149,
@@ -2022,9 +2024,7 @@ var sites = {
           41.8349
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }

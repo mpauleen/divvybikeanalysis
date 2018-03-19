@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html", has_result=False, map_lat=41.881832,
+    return render_template("index.html", map_lat=41.881832,
                            map_long=-87.623177, map_zoom=12, home=True)
 
 
@@ -30,6 +30,7 @@ def predict():
     api_data = get_two_most_recent(vars['station'])
     features = features_from_api(api_data)
     station_id = int(vars['station'])
+    station_name = features['station_name']
     prediction = int(round(predict_from_api(models,
         features.tail(1), station_id), 2) * 100)
     request_time = time.time()
@@ -42,7 +43,8 @@ def predict():
     result = prediction
     post_result(request_time, station_id, percent_full, result)
 
-    return render_template("index.html", has_result=True, station_id=vars['station'],
+    return render_template("index.html", station_id=station_id,
+                           station_name = station_name,
                            update_date = update_date, update_time = update_time, docks = docks,
                            available = available, map_lat=vars['lat'],
                            map_long=vars['lng'], map_zoom=vars['zoom'],
