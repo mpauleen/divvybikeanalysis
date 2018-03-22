@@ -1,10 +1,12 @@
 var sites = {
+  "type": "FeatureCollection",
   "features": [
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Balbo Ave",
+        "Address": "Michigan Ave & Balbo Ave",
         "ID": 2,
-        "Address": "Michigan Ave & Balbo Ave"
+        "Station Name": "Michigan Ave & Balbo Ave"
       },
       "geometry": {
         "coordinates": [
@@ -12,14 +14,14 @@ var sites = {
           41.872638
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Shedd Aquarium",
+        "Address": "Shedd Aquarium",
         "ID": 3,
-        "Address": "Shedd Aquarium"
+        "Station Name": "Shedd Aquarium"
       },
       "geometry": {
         "coordinates": [
@@ -27,14 +29,14 @@ var sites = {
           41.867226
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Burnham Harbor",
+        "Address": "Burnham Harbor",
         "ID": 4,
-        "Address": "Burnham Harbor"
+        "Station Name": "Burnham Harbor"
       },
       "geometry": {
         "coordinates": [
@@ -42,14 +44,14 @@ var sites = {
           41.856268
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & Harrison St",
+        "Address": "State St & Harrison St",
         "ID": 5,
-        "Address": "State St & Harrison St"
+        "Station Name": "State St & Harrison St"
       },
       "geometry": {
         "coordinates": [
@@ -57,14 +59,14 @@ var sites = {
           41.874053
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dusable Harbor",
+        "Address": "Dusable Harbor",
         "ID": 6,
-        "Address": "Dusable Harbor"
+        "Station Name": "Dusable Harbor"
       },
       "geometry": {
         "coordinates": [
@@ -72,14 +74,14 @@ var sites = {
           41.885042
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Field Blvd & South Water St",
+        "Address": "Field Blvd & South Water St",
         "ID": 7,
-        "Address": "Field Blvd & South Water St"
+        "Station Name": "Field Blvd & South Water St"
       },
       "geometry": {
         "coordinates": [
@@ -87,14 +89,14 @@ var sites = {
           41.886348999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Leavitt St & Archer Ave",
+        "Address": "Leavitt St & Archer Ave",
         "ID": 9,
-        "Address": "Leavitt St & Archer Ave"
+        "Station Name": "Leavitt St & Archer Ave"
       },
       "geometry": {
         "coordinates": [
@@ -102,14 +104,14 @@ var sites = {
           41.828792
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Jeffery Blvd & 71st St",
+        "Address": "Jeffery Blvd & 71st St",
         "ID": 11,
-        "Address": "Jeffery Blvd & 71st St"
+        "Station Name": "Jeffery Blvd & 71st St"
       },
       "geometry": {
         "coordinates": [
@@ -117,14 +119,14 @@ var sites = {
           41.766638
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "South Shore Dr & 71st St",
+        "Address": "South Shore Dr & 71st St",
         "ID": 12,
-        "Address": "South Shore Dr & 71st St"
+        "Station Name": "South Shore Dr & 71st St"
       },
       "geometry": {
         "coordinates": [
@@ -132,14 +134,14 @@ var sites = {
           41.766409
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wilton Ave & Diversey Pkwy",
+        "Address": "Wilton Ave & Diversey Pkwy",
         "ID": 13,
-        "Address": "Wilton Ave & Diversey Pkwy"
+        "Station Name": "Wilton Ave & Diversey Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -147,14 +149,14 @@ var sites = {
           41.932418
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Morgan St & 18th St",
+        "Address": "Morgan St & 18th St",
         "ID": 14,
-        "Address": "Morgan St & 18th St"
+        "Station Name": "Morgan St & 18th St"
       },
       "geometry": {
         "coordinates": [
@@ -162,14 +164,14 @@ var sites = {
           41.858086
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Racine Ave & 18th St",
+        "Address": "Racine Ave & 18th St",
         "ID": 15,
-        "Address": "Racine Ave & 18th St"
+        "Station Name": "Racine Ave & 18th St"
       },
       "geometry": {
         "coordinates": [
@@ -177,14 +179,14 @@ var sites = {
           41.858166
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Paulina Ave & North Ave",
+        "Address": "Paulina Ave & North Ave",
         "ID": 16,
-        "Address": "Paulina Ave & North Ave"
+        "Station Name": "Paulina Ave & North Ave"
       },
       "geometry": {
         "coordinates": [
@@ -192,14 +194,14 @@ var sites = {
           41.910337
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wood St & Division St",
+        "Address": "Wood St & Division St",
         "ID": 17,
-        "Address": "Wood St & Division St"
+        "Station Name": "Wood St & Division St"
       },
       "geometry": {
         "coordinates": [
@@ -207,14 +209,14 @@ var sites = {
           41.90332
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wacker Dr & Washington St",
+        "Address": "Wacker Dr & Washington St",
         "ID": 18,
-        "Address": "Wacker Dr & Washington St"
+        "Station Name": "Wacker Dr & Washington St"
       },
       "geometry": {
         "coordinates": [
@@ -222,14 +224,14 @@ var sites = {
           41.883272
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Loomis St & Taylor St (*)",
+        "Address": "Loomis St & Taylor St (*)",
         "ID": 19,
-        "Address": "Loomis St & Taylor St (*)"
+        "Station Name": "Loomis St & Taylor St (*)"
       },
       "geometry": {
         "coordinates": [
@@ -237,14 +239,14 @@ var sites = {
           41.869417
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sheffield Ave & Kingsbury St",
+        "Address": "Sheffield Ave & Kingsbury St",
         "ID": 20,
-        "Address": "Sheffield Ave & Kingsbury St"
+        "Station Name": "Sheffield Ave & Kingsbury St"
       },
       "geometry": {
         "coordinates": [
@@ -252,14 +254,14 @@ var sites = {
           41.910522
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Aberdeen St & Jackson Blvd",
+        "Address": "Aberdeen St & Jackson Blvd",
         "ID": 21,
-        "Address": "Aberdeen St & Jackson Blvd"
+        "Station Name": "Aberdeen St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -267,14 +269,14 @@ var sites = {
           41.877726
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "May St & Taylor St",
+        "Address": "May St & Taylor St",
         "ID": 22,
-        "Address": "May St & Taylor St"
+        "Station Name": "May St & Taylor St"
       },
       "geometry": {
         "coordinates": [
@@ -282,14 +284,14 @@ var sites = {
           41.869482
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Orleans St & Elm St (*)",
+        "Address": "Orleans St & Elm St (*)",
         "ID": 23,
-        "Address": "Orleans St & Elm St (*)"
+        "Station Name": "Orleans St & Elm St (*)"
       },
       "geometry": {
         "coordinates": [
@@ -297,14 +299,14 @@ var sites = {
           41.902924
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Fairbanks Ct & Grand Ave",
+        "Address": "Fairbanks Ct & Grand Ave",
         "ID": 24,
-        "Address": "Fairbanks Ct & Grand Ave"
+        "Station Name": "Fairbanks Ct & Grand Ave"
       },
       "geometry": {
         "coordinates": [
@@ -312,14 +314,14 @@ var sites = {
           41.89186
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Pearson St",
+        "Address": "Michigan Ave & Pearson st",
         "ID": 25,
-        "Address": "Michigan Ave & Pearson st"
+        "Station Name": "Michigan Ave & Pearson St"
       },
       "geometry": {
         "coordinates": [
@@ -327,14 +329,14 @@ var sites = {
           41.897659999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "McClurg Ct & Illinois St",
+        "Address": "McClurg Ct & Illinois St",
         "ID": 26,
-        "Address": "McClurg Ct & Illinois St"
+        "Station Name": "McClurg Ct & Illinois St"
       },
       "geometry": {
         "coordinates": [
@@ -342,14 +344,14 @@ var sites = {
           41.891020000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Larrabee St & North Ave",
+        "Address": "Larrabee St & North Ave",
         "ID": 27,
-        "Address": "Larrabee St & North Ave"
+        "Station Name": "Larrabee St & North Ave"
       },
       "geometry": {
         "coordinates": [
@@ -357,14 +359,14 @@ var sites = {
           41.91021
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Larrabee St & Menomonee St",
+        "Address": "Larrabee St & Menomonee St",
         "ID": 28,
-        "Address": "Larrabee St & Menomonee St"
+        "Station Name": "Larrabee St & Menomonee St"
       },
       "geometry": {
         "coordinates": [
@@ -372,14 +374,14 @@ var sites = {
           41.91468
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Noble St & Milwaukee Ave",
+        "Address": "Noble St & Milwaukee Ave",
         "ID": 29,
-        "Address": "Noble St & Milwaukee Ave"
+        "Station Name": "Noble St & Milwaukee Ave"
       },
       "geometry": {
         "coordinates": [
@@ -387,14 +389,14 @@ var sites = {
           41.90068
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Ashland Ave & Augusta Blvd",
+        "Address": "Ashland Ave & Augusta Blvd",
         "ID": 30,
-        "Address": "Ashland Ave & Augusta Blvd"
+        "Station Name": "Ashland Ave & Augusta Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -402,14 +404,14 @@ var sites = {
           41.899643
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Franklin St & Chicago Ave",
+        "Address": "Franklin St & Chicago Ave",
         "ID": 31,
-        "Address": "Franklin St & Chicago Ave"
+        "Station Name": "Franklin St & Chicago Ave"
       },
       "geometry": {
         "coordinates": [
@@ -417,14 +419,14 @@ var sites = {
           41.896776
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Racine Ave & Congress Pkwy",
+        "Address": "Racine Ave & Congress Pkwy",
         "ID": 32,
-        "Address": "Racine Ave & Congress Pkwy"
+        "Station Name": "Racine Ave & Congress Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -432,14 +434,14 @@ var sites = {
           41.87464
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & Van Buren St",
+        "Address": "State St & Van Buren St",
         "ID": 33,
-        "Address": "State St & Van Buren St"
+        "Station Name": "State St & Van Buren St"
       },
       "geometry": {
         "coordinates": [
@@ -447,14 +449,14 @@ var sites = {
           41.877181
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Cannon Dr & Fullerton Ave",
+        "Address": "Cannon Dr & Fullerton Ave",
         "ID": 34,
-        "Address": "Cannon Dr & Fullerton Ave"
+        "Station Name": "Cannon Dr & Fullerton Ave"
       },
       "geometry": {
         "coordinates": [
@@ -462,14 +464,14 @@ var sites = {
           41.926756
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Streeter Dr & Grand Ave",
+        "Address": "Streeter Dr & Grand Ave",
         "ID": 35,
-        "Address": "Streeter Dr & Grand Ave"
+        "Station Name": "Streeter Dr & Grand Ave"
       },
       "geometry": {
         "coordinates": [
@@ -477,14 +479,14 @@ var sites = {
           41.892278000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Franklin St & Jackson Blvd",
+        "Address": "Franklin St & Jackson Blvd",
         "ID": 36,
-        "Address": "Franklin St & Jackson Blvd"
+        "Station Name": "Franklin St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -492,14 +494,14 @@ var sites = {
           41.877708
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dearborn St & Adams St",
+        "Address": "Dearborn St & Adams St",
         "ID": 37,
-        "Address": "Dearborn St & Adams St"
+        "Station Name": "Dearborn St & Adams St"
       },
       "geometry": {
         "coordinates": [
@@ -507,14 +509,14 @@ var sites = {
           41.879356
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & Lake St",
+        "Address": "Clark St & Lake St",
         "ID": 38,
-        "Address": "Clark St & Lake St"
+        "Station Name": "Clark St & Lake St"
       },
       "geometry": {
         "coordinates": [
@@ -522,14 +524,14 @@ var sites = {
           41.886021
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wabash Ave & Adams St",
+        "Address": "Wabash Ave & Adams St",
         "ID": 39,
-        "Address": "Wabash Ave & Adams St"
+        "Station Name": "Wabash Ave & Adams St"
       },
       "geometry": {
         "coordinates": [
@@ -537,14 +539,14 @@ var sites = {
           41.879472
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "LaSalle St & Adams St",
+        "Address": "LaSalle St & Adams St",
         "ID": 40,
-        "Address": "LaSalle St & Adams St"
+        "Station Name": "LaSalle St & Adams St"
       },
       "geometry": {
         "coordinates": [
@@ -552,14 +554,14 @@ var sites = {
           41.879344
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Federal St & Polk St",
+        "Address": "Federal St & Polk St",
         "ID": 41,
-        "Address": "Federal St & Polk St"
+        "Station Name": "Federal St & Polk St"
       },
       "geometry": {
         "coordinates": [
@@ -567,14 +569,14 @@ var sites = {
           41.872078
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wabash Ave & Cermak Rd",
+        "Address": "Wabash Ave & Cermak Rd",
         "ID": 42,
-        "Address": "Wabash Ave & Cermak Rd"
+        "Station Name": "Wabash Ave & Cermak Rd"
       },
       "geometry": {
         "coordinates": [
@@ -582,14 +584,14 @@ var sites = {
           41.852619
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Washington St",
+        "Address": "Michigan Ave & Washington St",
         "ID": 43,
-        "Address": "Michigan Ave & Washington St"
+        "Station Name": "Michigan Ave & Washington St"
       },
       "geometry": {
         "coordinates": [
@@ -597,14 +599,14 @@ var sites = {
           41.883893
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & Randolph St",
+        "Address": "State St & Randolph St",
         "ID": 44,
-        "Address": "State St & Randolph St"
+        "Station Name": "State St & Randolph St"
       },
       "geometry": {
         "coordinates": [
@@ -612,14 +614,14 @@ var sites = {
           41.88473
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Congress Pkwy",
+        "Address": "Michigan Ave & Congress Pkwy",
         "ID": 45,
-        "Address": "Michigan Ave & Congress Pkwy"
+        "Station Name": "Michigan Ave & Congress Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -627,14 +629,14 @@ var sites = {
           41.876243
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wells St & Walton St",
+        "Address": "Wells St & Walton St",
         "ID": 46,
-        "Address": "Wells St & Walton St"
+        "Station Name": "Wells St & Walton St"
       },
       "geometry": {
         "coordinates": [
@@ -642,14 +644,14 @@ var sites = {
           41.89993
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & Kinzie St",
+        "Address": "State St & Kinzie St",
         "ID": 47,
-        "Address": "State St & Kinzie St"
+        "Station Name": "State St & Kinzie St"
       },
       "geometry": {
         "coordinates": [
@@ -657,14 +659,14 @@ var sites = {
           41.889179999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Larrabee St & Kingsbury St",
+        "Address": "Larrabee St & Kingsbury St",
         "ID": 48,
-        "Address": "Larrabee St & Kingsbury St"
+        "Station Name": "Larrabee St & Kingsbury St"
       },
       "geometry": {
         "coordinates": [
@@ -672,14 +674,14 @@ var sites = {
           41.897764
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dearborn St & Monroe St",
+        "Address": "Dearborn St & Monroe St",
         "ID": 49,
-        "Address": "Dearborn St & Monroe St"
+        "Station Name": "Dearborn St & Monroe St"
       },
       "geometry": {
         "coordinates": [
@@ -687,14 +689,14 @@ var sites = {
           41.88132
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & Congress Pkwy",
+        "Address": "Clark St & Congress Pkwy",
         "ID": 50,
-        "Address": "Clark St & Congress Pkwy"
+        "Station Name": "Clark St & Congress Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -702,14 +704,14 @@ var sites = {
           41.875933
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & Randolph St",
+        "Address": "Clark St & Randolph St",
         "ID": 51,
-        "Address": "Clark St & Randolph St"
+        "Station Name": "Clark St & Randolph St"
       },
       "geometry": {
         "coordinates": [
@@ -717,14 +719,14 @@ var sites = {
           41.884576
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Lake St",
+        "Address": "Michigan Ave & Lake St",
         "ID": 52,
-        "Address": "Michigan Ave & Lake St"
+        "Station Name": "Michigan Ave & Lake St"
       },
       "geometry": {
         "coordinates": [
@@ -732,14 +734,14 @@ var sites = {
           41.886024
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wells St & Huron St",
+        "Address": "Wells St & Huron St",
         "ID": 53,
-        "Address": "Wells St & Huron St"
+        "Station Name": "Wells St & Huron St"
       },
       "geometry": {
         "coordinates": [
@@ -747,14 +749,14 @@ var sites = {
           41.894729
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Ogden Ave & Chicago Ave",
+        "Address": "Ogden Ave & Chicago Ave",
         "ID": 54,
-        "Address": "Ogden Ave & Chicago Ave"
+        "Station Name": "Ogden Ave & Chicago Ave"
       },
       "geometry": {
         "coordinates": [
@@ -762,14 +764,14 @@ var sites = {
           41.896361999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Halsted St & Roosevelt Rd",
+        "Address": "Halsted St & Roosevelt Rd",
         "ID": 55,
-        "Address": "Halsted St & Roosevelt Rd"
+        "Station Name": "Halsted St & Roosevelt Rd"
       },
       "geometry": {
         "coordinates": [
@@ -777,14 +779,14 @@ var sites = {
           41.867323999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Desplaines St & Kinzie St",
+        "Address": "Desplaines St & Kinzie St",
         "ID": 56,
-        "Address": "Desplaines St & Kinzie St"
+        "Station Name": "Desplaines St & Kinzie St"
       },
       "geometry": {
         "coordinates": [
@@ -792,14 +794,14 @@ var sites = {
           41.888715999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Roosevelt Rd",
+        "Address": "Clinton St & Roosevelt Rd",
         "ID": 57,
-        "Address": "Clinton St & Roosevelt Rd"
+        "Station Name": "Clinton St & Roosevelt Rd"
       },
       "geometry": {
         "coordinates": [
@@ -807,14 +809,14 @@ var sites = {
           41.867118
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Marshfield Ave & Cortland St",
+        "Address": "Marshfield Ave & Cortland St",
         "ID": 58,
-        "Address": "Marshfield Ave & Cortland St"
+        "Station Name": "Marshfield Ave & Cortland St"
       },
       "geometry": {
         "coordinates": [
@@ -822,14 +824,14 @@ var sites = {
           41.916017
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wabash Ave & Roosevelt Rd",
+        "Address": "Wabash Ave & Roosevelt Rd",
         "ID": 59,
-        "Address": "Wabash Ave & Roosevelt Rd"
+        "Station Name": "Wabash Ave & Roosevelt Rd"
       },
       "geometry": {
         "coordinates": [
@@ -837,14 +839,14 @@ var sites = {
           41.867227
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dayton St & North Ave",
+        "Address": "Dayton St & North Ave",
         "ID": 60,
-        "Address": "Dayton St & North Ave"
+        "Station Name": "Dayton St & North Ave"
       },
       "geometry": {
         "coordinates": [
@@ -852,14 +854,14 @@ var sites = {
           41.910578
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wood St & Milwaukee Ave",
+        "Address": "Wood St & Milwaukee Ave",
         "ID": 61,
-        "Address": "Wood St & Milwaukee Ave"
+        "Station Name": "Wood St & Milwaukee Ave"
       },
       "geometry": {
         "coordinates": [
@@ -867,14 +869,14 @@ var sites = {
           41.907655
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "McCormick Place",
+        "Address": "McCormick Place",
         "ID": 62,
-        "Address": "McCormick Place"
+        "Station Name": "McCormick Place"
       },
       "geometry": {
         "coordinates": [
@@ -882,14 +884,14 @@ var sites = {
           41.851375
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Lake St",
+        "Address": "Clinton St & Lake St",
         "ID": 66,
-        "Address": "Clinton St & Lake St"
+        "Station Name": "Clinton St & Lake St"
       },
       "geometry": {
         "coordinates": [
@@ -897,14 +899,14 @@ var sites = {
           41.885637
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sheffield Ave & Fullerton Ave",
+        "Address": "Sheffield Ave & Fullerton Ave",
         "ID": 67,
-        "Address": "Sheffield Ave & Fullerton Ave"
+        "Station Name": "Sheffield Ave & Fullerton Ave"
       },
       "geometry": {
         "coordinates": [
@@ -912,14 +914,14 @@ var sites = {
           41.925602000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Tilden St",
+        "Address": "Clinton St & Tilden St",
         "ID": 68,
-        "Address": "Clinton St & Tilden St"
+        "Station Name": "Clinton St & Tilden St"
       },
       "geometry": {
         "coordinates": [
@@ -927,14 +929,14 @@ var sites = {
           41.875885
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Damen Ave & Pierce Ave",
+        "Address": "Damen Ave & Pierce Ave",
         "ID": 69,
-        "Address": "Damen Ave & Pierce Ave"
+        "Station Name": "Damen Ave & Pierce Ave"
       },
       "geometry": {
         "coordinates": [
@@ -942,14 +944,14 @@ var sites = {
           41.909396
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Morgan St & Lake St",
+        "Address": "Morgan St & Lake St",
         "ID": 71,
-        "Address": "Morgan St & Lake St"
+        "Station Name": "Morgan St & Lake St"
       },
       "geometry": {
         "coordinates": [
@@ -957,14 +959,14 @@ var sites = {
           41.885483
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wabash Ave & 16th St",
+        "Address": "Wabash Ave & 16th St",
         "ID": 72,
-        "Address": "Wabash Ave & 16th St"
+        "Station Name": "Wabash Ave & 16th St"
       },
       "geometry": {
         "coordinates": [
@@ -972,14 +974,14 @@ var sites = {
           41.860384
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Jefferson St & Monroe St",
+        "Address": "Jefferson St & Monroe St",
         "ID": 73,
-        "Address": "Jefferson St & Monroe St"
+        "Station Name": "Jefferson St & Monroe St"
       },
       "geometry": {
         "coordinates": [
@@ -987,14 +989,14 @@ var sites = {
           41.880421999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Kingsbury St & Erie St",
+        "Address": "Kingsbury St & Erie St",
         "ID": 74,
-        "Address": "Kingsbury St & Erie St"
+        "Station Name": "Kingsbury St & Erie St"
       },
       "geometry": {
         "coordinates": [
@@ -1002,14 +1004,14 @@ var sites = {
           41.893882
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Jackson Blvd",
+        "Address": "Clinton St & Jackson Blvd",
         "ID": 75,
-        "Address": "Clinton St & Jackson Blvd"
+        "Station Name": "Clinton St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1017,14 +1019,14 @@ var sites = {
           41.878534
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Lake Shore Dr & Monroe St",
+        "Address": "Lake Shore Dr & Monroe St",
         "ID": 76,
-        "Address": "Lake Shore Dr & Monroe St"
+        "Station Name": "Lake Shore Dr & Monroe St"
       },
       "geometry": {
         "coordinates": [
@@ -1032,14 +1034,14 @@ var sites = {
           41.880958
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Madison St",
+        "Address": "Clinton St & Madison St",
         "ID": 77,
-        "Address": "Clinton St & Madison St"
+        "Station Name": "Clinton St & Madison St"
       },
       "geometry": {
         "coordinates": [
@@ -1047,14 +1049,14 @@ var sites = {
           41.882242
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Aberdeen St & Monroe St",
+        "Address": "Aberdeen St & Monroe St",
         "ID": 80,
-        "Address": "Aberdeen St & Monroe St"
+        "Station Name": "Aberdeen St & Monroe St"
       },
       "geometry": {
         "coordinates": [
@@ -1062,14 +1064,14 @@ var sites = {
           41.88042
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Daley Center Plaza",
+        "Address": "Daley Center Plaza",
         "ID": 81,
-        "Address": "Daley Center Plaza"
+        "Station Name": "Daley Center Plaza"
       },
       "geometry": {
         "coordinates": [
@@ -1077,14 +1079,14 @@ var sites = {
           41.884240999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Union Ave & Grand Ave",
+        "Address": "Union Ave & Grand Ave",
         "ID": 84,
-        "Address": "Union Ave & Grand Ave"
+        "Station Name": "Union Ave & Grand Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1092,14 +1094,14 @@ var sites = {
           41.891
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Michigan Ave & Oak St",
+        "Address": "Michigan Ave & Oak St",
         "ID": 85,
-        "Address": "Michigan Ave & Oak St"
+        "Station Name": "Michigan Ave & Oak St"
       },
       "geometry": {
         "coordinates": [
@@ -1107,14 +1109,14 @@ var sites = {
           41.90096
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Eckhart Park",
+        "Address": "Eckhart Park",
         "ID": 86,
-        "Address": "Eckhart Park"
+        "Station Name": "Eckhart Park"
       },
       "geometry": {
         "coordinates": [
@@ -1122,14 +1124,14 @@ var sites = {
           41.896373
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Racine Ave & Fullerton Ave",
+        "Address": "Racine Ave & Fullerton Ave",
         "ID": 87,
-        "Address": "Racine Ave & Fullerton Ave"
+        "Station Name": "Racine Ave & Fullerton Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1137,14 +1139,14 @@ var sites = {
           41.925563000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "May St & Randolph St",
+        "Address": "May St & Randolph St",
         "ID": 88,
-        "Address": "May St & Randolph St"
+        "Station Name": "May St & Randolph St"
       },
       "geometry": {
         "coordinates": [
@@ -1152,14 +1154,14 @@ var sites = {
           41.88397
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Financial Pl & Congress Pkwy",
+        "Address": "Financial Pl & Congress Pkwy",
         "ID": 89,
-        "Address": "Financial Pl & Congress Pkwy"
+        "Station Name": "Financial Pl & Congress Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -1167,14 +1169,14 @@ var sites = {
           41.875009000000006
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Millennium Park",
+        "Address": "Millennium Park",
         "ID": 90,
-        "Address": "Millennium Park"
+        "Station Name": "Millennium Park"
       },
       "geometry": {
         "coordinates": [
@@ -1182,14 +1184,14 @@ var sites = {
           41.881032
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Washington Blvd",
+        "Address": "Clinton St & Washington Blvd",
         "ID": 91,
-        "Address": "Clinton St & Washington Blvd"
+        "Station Name": "Clinton St & Washington Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1197,14 +1199,14 @@ var sites = {
           41.883379999999995
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Carpenter St & Huron St",
+        "Address": "Carpenter St & Huron St",
         "ID": 92,
-        "Address": "Carpenter St & Huron St"
+        "Station Name": "Carpenter St & Huron St"
       },
       "geometry": {
         "coordinates": [
@@ -1212,14 +1214,14 @@ var sites = {
           41.894556
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sheffield Ave & Willow St",
+        "Address": "Sheffield Ave & Willow St",
         "ID": 93,
-        "Address": "Sheffield Ave & Willow St"
+        "Station Name": "Sheffield Ave & Willow St"
       },
       "geometry": {
         "coordinates": [
@@ -1227,14 +1229,14 @@ var sites = {
           41.913688
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & Armitage Ave",
+        "Address": "Clark St & Armitage Ave",
         "ID": 94,
-        "Address": "Clark St & Armitage Ave"
+        "Station Name": "Clark St & Armitage Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1242,14 +1244,14 @@ var sites = {
           41.918306
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Stony Island Ave & 64th St",
+        "Address": "Stony Island Ave & 64th St",
         "ID": 95,
-        "Address": "Stony Island Ave & 64th St"
+        "Station Name": "Stony Island Ave & 64th St"
       },
       "geometry": {
         "coordinates": [
@@ -1257,14 +1259,14 @@ var sites = {
           41.778701
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Desplaines St & Randolph St",
+        "Address": "Desplaines St & Randolph St",
         "ID": 96,
-        "Address": "Desplaines St & Randolph St"
+        "Station Name": "Desplaines St & Randolph St"
       },
       "geometry": {
         "coordinates": [
@@ -1272,14 +1274,14 @@ var sites = {
           41.884615999999994
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Field Museum",
+        "Address": "Field Museum",
         "ID": 97,
-        "Address": "Field Museum"
+        "Station Name": "Field Museum"
       },
       "geometry": {
         "coordinates": [
@@ -1287,14 +1289,14 @@ var sites = {
           41.865312
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "LaSalle St & Washington St",
+        "Address": "LaSalle St & Washington St",
         "ID": 98,
-        "Address": "LaSalle St & Washington St"
+        "Station Name": "LaSalle St & Washington St"
       },
       "geometry": {
         "coordinates": [
@@ -1302,14 +1304,14 @@ var sites = {
           41.882664
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Lake Shore Dr & Ohio St",
+        "Address": "Lake Shore Dr & Ohio St",
         "ID": 99,
-        "Address": "Lake Shore Dr & Ohio St"
+        "Station Name": "Lake Shore Dr & Ohio St"
       },
       "geometry": {
         "coordinates": [
@@ -1317,14 +1319,14 @@ var sites = {
           41.89257
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Orleans St & Merchandise Mart Plaza",
+        "Address": "Orleans St & Merchandise Mart Plaza",
         "ID": 100,
-        "Address": "Orleans St & Merchandise Mart Plaza"
+        "Station Name": "Orleans St & Merchandise Mart Plaza"
       },
       "geometry": {
         "coordinates": [
@@ -1332,14 +1334,14 @@ var sites = {
           41.888243
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "63rd St Beach",
+        "Address": "63rd St Beach",
         "ID": 101,
-        "Address": "63rd St Beach"
+        "Station Name": "63rd St Beach"
       },
       "geometry": {
         "coordinates": [
@@ -1347,14 +1349,14 @@ var sites = {
           41.781015999999994
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Stony Island Ave & 67th St",
+        "Address": "Stony Island Ave & 67th St",
         "ID": 102,
-        "Address": "Stony Island Ave & 67th St"
+        "Station Name": "Stony Island Ave & 67th St"
       },
       "geometry": {
         "coordinates": [
@@ -1362,14 +1364,14 @@ var sites = {
           41.773458000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clinton St & Polk St (*)",
+        "Address": "Clinton St & Polk St (*)",
         "ID": 103,
-        "Address": "Clinton St & Polk St (*)"
+        "Station Name": "Clinton St & Polk St (*)"
       },
       "geometry": {
         "coordinates": [
@@ -1377,14 +1379,14 @@ var sites = {
           41.871466999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & Pearson St",
+        "Address": "State St & Pearson St",
         "ID": 106,
-        "Address": "State St & Pearson St"
+        "Station Name": "State St & Pearson St"
       },
       "geometry": {
         "coordinates": [
@@ -1392,14 +1394,14 @@ var sites = {
           41.897448
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Desplaines St & Jackson Blvd",
+        "Address": "Desplaines St & Jackson Blvd",
         "ID": 107,
-        "Address": "Desplaines St & Jackson Blvd"
+        "Station Name": "Desplaines St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1407,14 +1409,14 @@ var sites = {
           41.878287
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Halsted St & Polk St",
+        "Address": "Halsted St & Polk St",
         "ID": 108,
-        "Address": "Halsted St & Polk St"
+        "Station Name": "Halsted St & Polk St"
       },
       "geometry": {
         "coordinates": [
@@ -1422,14 +1424,14 @@ var sites = {
           41.87184
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "900 W Harrison St",
+        "Address": "900 W Harrison St",
         "ID": 109,
-        "Address": "900 W Harrison St"
+        "Station Name": "900 W Harrison St"
       },
       "geometry": {
         "coordinates": [
@@ -1437,14 +1439,14 @@ var sites = {
           41.874675
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dearborn St & Erie St",
+        "Address": "Dearborn St & Erie St",
         "ID": 110,
-        "Address": "Dearborn St & Erie St"
+        "Station Name": "Dearborn St & Erie St"
       },
       "geometry": {
         "coordinates": [
@@ -1452,14 +1454,14 @@ var sites = {
           41.893992
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sedgwick St & Huron St",
+        "Address": "Sedgwick St & Huron St",
         "ID": 111,
-        "Address": "Sedgwick St & Huron St"
+        "Station Name": "Sedgwick St & Huron St"
       },
       "geometry": {
         "coordinates": [
@@ -1467,14 +1469,14 @@ var sites = {
           41.894666
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Green St & Randolph St",
+        "Address": "Green St & Randolph St",
         "ID": 112,
-        "Address": "Green St & Randolph St"
+        "Station Name": "Green St & Randolph St"
       },
       "geometry": {
         "coordinates": [
@@ -1482,14 +1484,14 @@ var sites = {
           41.883668
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Bissell St & Armitage Ave",
+        "Address": "Bissell St & Armitage Ave",
         "ID": 113,
-        "Address": "Bissell St & Armitage Ave"
+        "Station Name": "Bissell St & Armitage Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1497,14 +1499,14 @@ var sites = {
           41.918440000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sheffield Ave & Waveland Ave",
+        "Address": "Sheffield Ave & Waveland Ave",
         "ID": 114,
-        "Address": "Sheffield Ave & Waveland Ave"
+        "Station Name": "Sheffield Ave & Waveland Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1512,14 +1514,14 @@ var sites = {
           41.949399
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sheffield Ave & Wellington Ave",
+        "Address": "Sheffield Ave & Wellington Ave",
         "ID": 115,
-        "Address": "Sheffield Ave & Wellington Ave"
+        "Station Name": "Sheffield Ave & Wellington Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1527,14 +1529,14 @@ var sites = {
           41.936265999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Western Ave & Winnebago Ave",
+        "Address": "Western Ave & Winnebago Ave",
         "ID": 116,
-        "Address": "Western Ave & Winnebago Ave"
+        "Station Name": "Western Ave & Winnebago Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1542,14 +1544,14 @@ var sites = {
           41.91552
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wilton Ave & Belmont Ave",
+        "Address": "Wilton Ave & Belmont Ave",
         "ID": 117,
-        "Address": "Wilton Ave & Belmont Ave"
+        "Station Name": "Wilton Ave & Belmont Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1557,14 +1559,14 @@ var sites = {
           41.94018
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sedgwick St & North Ave",
+        "Address": "Sedgwick St & North Ave",
         "ID": 118,
-        "Address": "Sedgwick St & North Ave"
+        "Station Name": "Sedgwick St & North Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1572,14 +1574,14 @@ var sites = {
           41.911386
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Ashland Ave & Lake St",
+        "Address": "Ashland Ave & Lake St",
         "ID": 119,
-        "Address": "Ashland Ave & Lake St"
+        "Station Name": "Ashland Ave & Lake St"
       },
       "geometry": {
         "coordinates": [
@@ -1587,14 +1589,14 @@ var sites = {
           41.88541
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wentworth Ave & Archer Ave",
+        "Address": "Wentworth Ave & Archer Ave",
         "ID": 120,
-        "Address": "Wentworth Ave & Archer Ave"
+        "Station Name": "Wentworth Ave & Archer Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1602,14 +1604,14 @@ var sites = {
           41.853605
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Blackstone Ave & Hyde Park Blvd",
+        "Address": "Blackstone Ave & Hyde Park Blvd",
         "ID": 121,
-        "Address": "Blackstone Ave & Hyde Park Blvd"
+        "Station Name": "Blackstone Ave & Hyde Park Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1617,14 +1619,14 @@ var sites = {
           41.802562
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Ogden Ave & Congress Pkwy",
+        "Address": "Ogden Ave & Congress Pkwy",
         "ID": 122,
-        "Address": "Ogden Ave & Congress Pkwy"
+        "Station Name": "Ogden Ave & Congress Pkwy"
       },
       "geometry": {
         "coordinates": [
@@ -1632,14 +1634,14 @@ var sites = {
           41.875009999999996
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "California Ave & Milwaukee Ave",
+        "Address": "California Ave & Milwaukee Ave",
         "ID": 123,
-        "Address": "California Ave & Milwaukee Ave"
+        "Station Name": "California Ave & Milwaukee Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1647,14 +1649,14 @@ var sites = {
           41.922695000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Damen Ave & Cullerton St",
+        "Address": "Damen Ave & Cullerton St",
         "ID": 124,
-        "Address": "Damen Ave & Cullerton St"
+        "Station Name": "Damen Ave & Cullerton St"
       },
       "geometry": {
         "coordinates": [
@@ -1662,14 +1664,14 @@ var sites = {
           41.855048
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Rush St & Hubbard St",
+        "Address": "Rush St & Hubbard St",
         "ID": 125,
-        "Address": "Rush St & Hubbard St"
+        "Station Name": "Rush St & Hubbard St"
       },
       "geometry": {
         "coordinates": [
@@ -1677,14 +1679,14 @@ var sites = {
           41.890011
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & North Ave",
+        "Address": "Clark St & North Ave",
         "ID": 126,
-        "Address": "Clark St & North Ave"
+        "Station Name": "Clark St & North Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1692,14 +1694,14 @@ var sites = {
           41.911974
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Lincoln Ave & Fullerton Ave",
+        "Address": "Lincoln Ave & Fullerton Ave",
         "ID": 127,
-        "Address": "Lincoln Ave & Fullerton Ave"
+        "Station Name": "Lincoln Ave & Fullerton Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1707,14 +1709,14 @@ var sites = {
           41.925905
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Damen Ave & Chicago Ave",
+        "Address": "Damen Ave & Chicago Ave",
         "ID": 128,
-        "Address": "Damen Ave & Chicago Ave"
+        "Station Name": "Damen Ave & Chicago Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1722,14 +1724,14 @@ var sites = {
           41.895769
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Blue Island Ave & 18th St",
+        "Address": "Blue Island Ave & 18th St",
         "ID": 129,
-        "Address": "Blue Island Ave & 18th St"
+        "Station Name": "Blue Island Ave & 18th St"
       },
       "geometry": {
         "coordinates": [
@@ -1737,14 +1739,14 @@ var sites = {
           41.857556
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Damen Ave & Division St",
+        "Address": "Damen Ave & Division St",
         "ID": 130,
-        "Address": "Damen Ave & Division St"
+        "Station Name": "Damen Ave & Division St"
       },
       "geometry": {
         "coordinates": [
@@ -1752,14 +1754,14 @@ var sites = {
           41.90331
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Lincoln Ave & Belmont Ave",
+        "Address": "Lincoln Ave & Belmont Ave",
         "ID": 131,
-        "Address": "Lincoln Ave & Belmont Ave"
+        "Station Name": "Lincoln Ave & Belmont Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1767,14 +1769,14 @@ var sites = {
           41.939365
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Wentworth Ave & 24th St",
+        "Address": "Wentworth Ave & 24th St",
         "ID": 132,
-        "Address": "Wentworth Ave & 24th St"
+        "Station Name": "Wentworth Ave & 24th St"
       },
       "geometry": {
         "coordinates": [
@@ -1782,14 +1784,14 @@ var sites = {
           41.849237
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Kingsbury St & Kinzie St",
+        "Address": "Kingsbury St & Kinzie St",
         "ID": 133,
-        "Address": "Kingsbury St & Kinzie St"
+        "Station Name": "Kingsbury St & Kinzie St"
       },
       "geometry": {
         "coordinates": [
@@ -1797,14 +1799,14 @@ var sites = {
           41.889177000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Peoria St & Jackson Blvd",
+        "Address": "Peoria St & Jackson Blvd",
         "ID": 134,
-        "Address": "Peoria St & Jackson Blvd"
+        "Station Name": "Peoria St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1812,14 +1814,14 @@ var sites = {
           41.877749
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Halsted St & 21st St",
+        "Address": "Halsted St & 21st St",
         "ID": 135,
-        "Address": "Halsted St & 21st St"
+        "Station Name": "Halsted St & 21st St"
       },
       "geometry": {
         "coordinates": [
@@ -1827,14 +1829,14 @@ var sites = {
           41.85378
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Racine Ave & 13th St",
+        "Address": "Racine Ave & 13th St",
         "ID": 136,
-        "Address": "Racine Ave & 13th St"
+        "Station Name": "Racine Ave & 13th St"
       },
       "geometry": {
         "coordinates": [
@@ -1842,14 +1844,14 @@ var sites = {
           41.865054
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Morgan Ave & 14th Pl",
+        "Address": "Morgan Ave & 14th Pl",
         "ID": 137,
-        "Address": "Morgan Ave & 14th Pl"
+        "Station Name": "Morgan Ave & 14th Pl"
       },
       "geometry": {
         "coordinates": [
@@ -1857,14 +1859,14 @@ var sites = {
           41.862378
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clybourn Ave & Division St",
+        "Address": "Clybourn Ave & Division St",
         "ID": 138,
-        "Address": "Clybourn Ave & Division St"
+        "Station Name": "Clybourn Ave & Division St"
       },
       "geometry": {
         "coordinates": [
@@ -1872,14 +1874,14 @@ var sites = {
           41.904613
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Dearborn Pkwy & Delaware Pl",
+        "Address": "Dearborn Pkwy & Delaware Pl",
         "ID": 140,
-        "Address": "Dearborn Pkwy & Delaware Pl"
+        "Station Name": "Dearborn Pkwy & Delaware Pl"
       },
       "geometry": {
         "coordinates": [
@@ -1887,14 +1889,14 @@ var sites = {
           41.898969
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Clark St & Lincoln Ave",
+        "Address": "Clark St & Lincoln Ave",
         "ID": 141,
-        "Address": "Clark St & Lincoln Ave"
+        "Station Name": "Clark St & Lincoln Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1902,14 +1904,14 @@ var sites = {
           41.915689
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "McClurg Ct & Erie St",
+        "Address": "McClurg Ct & Erie St",
         "ID": 142,
-        "Address": "McClurg Ct & Erie St"
+        "Station Name": "McClurg Ct & Erie St"
       },
       "geometry": {
         "coordinates": [
@@ -1917,14 +1919,14 @@ var sites = {
           41.894503
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Sedgwick St & Webster Ave",
+        "Address": "Sedgwick St & Webster Ave",
         "ID": 143,
-        "Address": "Sedgwick St & Webster Ave"
+        "Station Name": "Sedgwick St & Webster Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1932,14 +1934,14 @@ var sites = {
           41.922167
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Larrabee St & Webster Ave",
+        "Address": "Larrabee St & Webster Ave",
         "ID": 144,
-        "Address": "Larrabee St & Webster Ave"
+        "Station Name": "Larrabee St & Webster Ave"
       },
       "geometry": {
         "coordinates": [
@@ -1947,14 +1949,14 @@ var sites = {
           41.921822
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Mies van der Rohe Way & Chestnut St",
+        "Address": "Mies van der Rohe Way & Chestnut St",
         "ID": 145,
-        "Address": "Mies van der Rohe Way & Chestnut St"
+        "Station Name": "Mies van der Rohe Way & Chestnut St"
       },
       "geometry": {
         "coordinates": [
@@ -1962,14 +1964,14 @@ var sites = {
           41.898587
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Loomis St & Jackson Blvd",
+        "Address": "Loomis St & Jackson Blvd",
         "ID": 146,
-        "Address": "Loomis St & Jackson Blvd"
+        "Station Name": "Loomis St & Jackson Blvd"
       },
       "geometry": {
         "coordinates": [
@@ -1977,14 +1979,14 @@ var sites = {
           41.877945000000004
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Indiana Ave & 26th St",
+        "Address": "Indiana Ave & 26th St",
         "ID": 147,
-        "Address": "Indiana Ave & 26th St"
+        "Station Name": "Indiana Ave & 26th St"
       },
       "geometry": {
         "coordinates": [
@@ -1992,14 +1994,14 @@ var sites = {
           41.845687
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "State St & 33rd St",
+        "Address": "State St & 33rd St",
         "ID": 148,
-        "Address": "State St & 33rd St"
+        "Station Name": "State St & 33rd St"
       },
       "geometry": {
         "coordinates": [
@@ -2007,14 +2009,14 @@ var sites = {
           41.834734000000005
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     },
     {
+      "type": "Feature",
       "properties": {
-        "Station Name": "Calumet Ave & 33rd St",
+        "Address": "Calumet Ave & 33rd St",
         "ID": 149,
-        "Address": "Calumet Ave & 33rd St"
+        "Station Name": "Calumet Ave & 33rd St"
       },
       "geometry": {
         "coordinates": [
@@ -2022,9 +2024,7 @@ var sites = {
           41.8349
         ],
         "type": "Point"
-      },
-      "type": "Feature"
+      }
     }
-  ],
-  "type": "FeatureCollection"
+  ]
 }

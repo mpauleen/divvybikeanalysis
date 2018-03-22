@@ -35,27 +35,22 @@
 	<div>
 		<!-- Default panel contents -->
 		<div class="data-header">
-            {% if has_result %}
-            Station {{station_id}} Shortage
+            {% if not home %}
+            {{station_name}}
+			<div class = "subtitle">{{available}} of {{docks}} bikes available</div>
             {% endif%}
-			<div class = "subtitle"></div>
 		</div>
 
-        {% if prediction %}
-            {% if prediction > 80 %}
-            <font color="red">{{prediction}}% chance in next 30 minutes</font>
-            {% elif prediction > 40 %}
-            <font color="orange">{{prediction}}% chance in next 30 minutes</font>
+        {% if not home %}
+            {% if prediction > 50 %}
+            <font color="red">{{prediction}}% chance of shortage in next 30 minutes</font>
+            {% elif prediction > 20 %}
+            <font color="orange">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% else %}
-            <font color="green">{{prediction}}% chance in next 30 minutes</font>
+            <font color="green">{{prediction}}% chance of shortage in next 30 minutes</font>
             {% endif%}
+			<font size = "1"><br>Station {{station_id}}: Updated on {{update_date}} at {{update_time}}</font>
         {% endif%}
-
-		<!-- List group -->
-		<div class="list-group">
-
-
-		</div>
 	</div>
 
 </div>

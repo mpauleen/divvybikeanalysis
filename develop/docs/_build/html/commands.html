@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Set Up Database &#8212; DivvyBikeAnalysis 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Getting started" href="getting-started.html" /> 
+  </head>
+  <body role="document">
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getting-started.html" title="Getting started"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">DivvyBikeAnalysis 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-create_db">
+<span id="set-up-database"></span><h1>Set Up Database<a class="headerlink" href="#module-create_db" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="create_db.db_define">
+<code class="descclassname">create_db.</code><code class="descname">db_define</code><span class="sig-paren">(</span><em>env</em><span class="sig-paren">)</span><a class="headerlink" href="#create_db.db_define" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function defines the database schema</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>env: database connection object</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-access_api">
+<span id="data-ingestion-and-feature-creation"></span><h1>Data Ingestion and Feature Creation<a class="headerlink" href="#module-access_api" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="access_api.get_two_most_recent">
+<code class="descclassname">access_api.</code><code class="descname">get_two_most_recent</code><span class="sig-paren">(</span><em>id</em><span class="sig-paren">)</span><a class="headerlink" href="#access_api.get_two_most_recent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Query the Divvy API for the two most recent tuples
+of the specified station for prediction</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>id (int): Station ID in Divvy network</dd>
+<dt>Returns:</dt>
+<dd>pd.DataFrame: DF containing data pulled from API</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-build_features"></span><dl class="function">
+<dt id="build_features.create_feature_df">
+<code class="descclassname">build_features.</code><code class="descname">create_feature_df</code><span class="sig-paren">(</span><em>file_name</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.create_feature_df" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create features from historical station data
+for model training and saves to csv in 
+<cite>data/processed/historical_features.csv</cite></p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>file_name (str): path to raw csv</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.features_from_api">
+<code class="descclassname">build_features.</code><code class="descname">features_from_api</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.features_from_api" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate predictive features from api pull
+of Divvy Station data. Create holiday, weekend and rush
+hour indicators. To be used for predicting shortage at a station.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>df (pd.DataFrame): API pull of Divvy Data</dd>
+<dt>Returns:</dt>
+<dd>pd.DataFrame: Features DataFrame for predicting.</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.features_from_csv">
+<code class="descclassname">build_features.</code><code class="descname">features_from_csv</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.features_from_csv" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate predictive features from historical csv
+of Divvy Station data. Create holiday, weekend and rush
+hour indicators, as well as shortage indicator (0 bikes available
+at some point within 30 minutes). To be used for training model</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>df (pd.DataFrame): Historical Divvy Data</dd>
+<dt>Returns:</dt>
+<dd>pd.DataFrame: Features DataFrame for modeling.</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.holiday_indicator">
+<code class="descclassname">build_features.</code><code class="descname">holiday_indicator</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.holiday_indicator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Appends holiday (US Federal) indicator column</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.parse_dates">
+<code class="descclassname">build_features.</code><code class="descname">parse_dates</code><span class="sig-paren">(</span><em>s</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.parse_dates" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is an extremely fast approach to datetime parsing.
+For large data, the same dates are often repeated. Rather than
+re-parse these, we store all unique dates, parse them, and
+use a lookup to convert all dates.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.rush_hour_indicator">
+<code class="descclassname">build_features.</code><code class="descname">rush_hour_indicator</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.rush_hour_indicator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Appends <cite>am_rush</cite> (7 to 11) and <cite>pm_rush</cite> (16 to 19) indicator columns to DF</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="build_features.weekend_indicator">
+<code class="descclassname">build_features.</code><code class="descname">weekend_indicator</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#build_features.weekend_indicator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Appends weekend indicator column</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-predict_model">
+<span id="model-fitting-and-prediction"></span><h1>Model Fitting and Prediction<a class="headerlink" href="#module-predict_model" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="predict_model.load_model_params">
+<code class="descclassname">predict_model.</code><code class="descname">load_model_params</code><span class="sig-paren">(</span><em>station_id</em><span class="sig-paren">)</span><a class="headerlink" href="#predict_model.load_model_params" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unpickles the stored model coefficients for the specified station_id</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>station_id (int): Valid Station ID number in the divvy network</dd>
+<dt>Returns:</dt>
+<dd>pd.DataFrame: Logit Model Parameters</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict_model.log_odds">
+<code class="descclassname">predict_model.</code><code class="descname">log_odds</code><span class="sig-paren">(</span><em>model_params</em>, <em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#predict_model.log_odds" title="Permalink to this definition">¶</a></dt>
+<dd><p>Multiply model parameters and features and calculat log-odds
+the station having 0 bikes available at some point in the next
+30 minutes.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>model_params (pd.DataFrame): Logit Model Coefficients
+df (pd.DataFrame): Predictor values</dd>
+<dt>Returns:</dt>
+<dd>float: log-odds of bike shortage</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict_model.log_odds_to_prob">
+<code class="descclassname">predict_model.</code><code class="descname">log_odds_to_prob</code><span class="sig-paren">(</span><em>log_odds</em><span class="sig-paren">)</span><a class="headerlink" href="#predict_model.log_odds_to_prob" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert log_odds to a probability</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>log_odds (float): Log odds</dd>
+<dt>Returns:</dt>
+<dd>float: probability [0,1]</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="predict_model.predict_from_api">
+<code class="descclassname">predict_model.</code><code class="descname">predict_from_api</code><span class="sig-paren">(</span><em>df</em>, <em>station_id</em><span class="sig-paren">)</span><a class="headerlink" href="#predict_model.predict_from_api" title="Permalink to this definition">¶</a></dt>
+<dd><p>Predict probability of shortage of bikes at given station
+in the next 30 minutes given a df of predictors.</p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>df (pd.DataFrame): predictor values, pulled from api
+station_id (int): Divvy Station ID</dd>
+<dt>Returns:</dt>
+<dd>float: Probability of shortage</dd>
+</dl>
+</dd></dl>
+
+<span class="target" id="module-train_model"></span><dl class="function">
+<dt id="train_model.train_models">
+<code class="descclassname">train_model.</code><code class="descname">train_models</code><span class="sig-paren">(</span><em>df</em><span class="sig-paren">)</span><a class="headerlink" href="#train_model.train_models" title="Permalink to this definition">¶</a></dt>
+<dd><p>Take in feature data frame and train a logit
+model for each station in the Divvy network. Save
+model coefficients to <cite>data/models</cite></p>
+<dl class="docutils">
+<dt>Args:</dt>
+<dd>df (pd.DataFrame): features data frame</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Set Up Database</a></li>
+<li><a class="reference internal" href="#module-access_api">Data Ingestion and Feature Creation</a></li>
+<li><a class="reference internal" href="#module-predict_model">Model Fitting and Prediction</a></li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="getting-started.html"
+                        title="previous chapter">Getting started</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/commands.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="getting-started.html" title="Getting started"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">DivvyBikeAnalysis 0.1 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright .
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.1.
+    </div>
+  </body>
+</html>
